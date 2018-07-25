@@ -7,7 +7,8 @@ print(df.ix[:,[0]])
 
 df =pd.get_dummies(df)
 print(df)
+print(df.ix[0,0])
 
 an =pd.Series(["unchi"])
 an.append(pd.Series(["unchicchi"]))
-print(an)
+#print(an)
